@@ -13,7 +13,7 @@
 <text x="1870" y="110" font-size="22" fill="#5b6475">iPad: USB-C / mini-jack</text>
 <rect x="50" y="130" width="470" height="1060" rx="18" fill="#f6f7f9"/>
 <text x="70" y="172" font-size="26" font-weight="700" fill="#141a26">Место управления · 1700 мм</text>
-<text x="70" y="202" font-size="20" fill="#5b6475">кабель-канал DKC 100×60 у шкафа</text>
+<text x="70" y="202" font-size="20" fill="#5b6475">кабель-канал у шкафа (со стройки)</text>
 <rect x="90" y="240" width="380" height="190" rx="14" fill="#eaf1fd" stroke="#2d6cdf" stroke-width="3" />
 <text x="280.0" y="282" text-anchor="middle" font-size="30" font-weight="700" fill="#141a26">iPad 10,9″</text>
 <text x="280.0" y="318" text-anchor="middle" font-size="21" fill="#5b6475">на кронштейне; зарядка PD 20 Вт,</text>
@@ -56,23 +56,23 @@
 <circle cx="1690" cy="500" r="8" fill="#ffffff" stroke="#141a26" stroke-width="3"/>
 <text x="1674" y="507" text-anchor="end" font-size="20" font-weight="600" fill="#ffffff">OUT 3</text>
 <rect x="1310" y="700" width="380" height="300" rx="14" fill="#1d2129" stroke="#1d2129" stroke-width="3" />
-<text x="1500.0" y="742" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">Lab.gruppen CA602</text>
-<text x="1500.0" y="778" text-anchor="middle" font-size="21" fill="#cfd5e0">есть; режим 100 В, ФВЧ ON</text>
+<text x="1500.0" y="742" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">2 × Lab.gruppen CA1201</text>
+<text x="1500.0" y="778" text-anchor="middle" font-size="21" fill="#cfd5e0">есть; №1 улица, №2 туалет; 100 В</text>
 <circle cx="1310" cy="860" r="8" fill="#ffffff" stroke="#141a26" stroke-width="3"/>
-<text x="1326" y="867" text-anchor="start" font-size="20" font-weight="600" fill="#ffffff">IN A + B (Euroblock)</text>
+<text x="1326" y="867" text-anchor="start" font-size="20" font-weight="600" fill="#ffffff">IN №1 + №2 (Euroblock)</text>
 <circle cx="1690" cy="840" r="8" fill="#ffffff" stroke="#141a26" stroke-width="3"/>
-<text x="1674" y="847" text-anchor="end" font-size="20" font-weight="600" fill="#ffffff">OUT A 100 В</text>
+<text x="1674" y="847" text-anchor="end" font-size="20" font-weight="600" fill="#ffffff">№1 OUT 100 В</text>
 <circle cx="1690" cy="940" r="8" fill="#ffffff" stroke="#141a26" stroke-width="3"/>
-<text x="1674" y="947" text-anchor="end" font-size="20" font-weight="600" fill="#ffffff">OUT B 100 В</text>
+<text x="1674" y="947" text-anchor="end" font-size="20" font-weight="600" fill="#ffffff">№2 OUT 100 В</text>
 <circle cx="1400" cy="1000" r="8" fill="#ffffff" stroke="#141a26" stroke-width="3"/>
 <text x="1416" y="1007" text-anchor="start" font-size="20" font-weight="600" fill="#ffffff"></text>
 <circle cx="1560" cy="1000" r="8" fill="#ffffff" stroke="#141a26" stroke-width="3"/>
 <text x="1576" y="1007" text-anchor="start" font-size="20" font-weight="600" fill="#ffffff"></text>
-<text x="1400" y="1040" text-anchor="middle" font-size="19" font-weight="600" fill="#141a26">RJ45 «B»</text>
-<text x="1560" y="1040" text-anchor="middle" font-size="19" font-weight="600" fill="#141a26">RJ45 «A+B»</text>
+<text x="1400" y="1040" text-anchor="middle" font-size="19" font-weight="600" fill="#141a26">RJ45 №2</text>
+<text x="1560" y="1040" text-anchor="middle" font-size="19" font-weight="600" fill="#141a26">RJ45 №1</text>
 <rect x="690" y="1100" width="380" height="140" rx="14" fill="#eef0f4" stroke="#9aa3b5" stroke-width="3" />
 <text x="880.0" y="1142" text-anchor="middle" font-size="24" font-weight="700" fill="#141a26">Блок розеток с выключателем</text>
-<text x="880.0" y="1178" text-anchor="middle" font-size="21" fill="#5b6475">PDU-19H805: CM82, Volta, CA602</text>
+<text x="880.0" y="1178" text-anchor="middle" font-size="21" fill="#5b6475">PDU-19H805: весь звук</text>
 <text x="1110" y="1160" font-size="19" fill="#5b6475">Блок со своим шнуром 3 м — в розетку у шкафа.</text>
 <text x="1110" y="1186" font-size="19" fill="#5b6475">ИБП → PDU-19H901: регистратор, коммутатор, роутер, iPad</text>
 <rect x="1880" y="150" width="680" height="470" rx="14" fill="#fbf1e6" stroke="#c06a1d" stroke-width="3" />
@@ -104,7 +104,7 @@
 <path d="M1070 500 L1200 500 L1200 860 L1310 860" fill="none" stroke="#2d6cdf" stroke-width="6" stroke-linejoin="round" />
 <text x="1080" y="600" font-size="20" fill="#2d6cdf" font-weight="600">Roxtone XLR 2 м</text>
 <text x="1080" y="625" font-size="20" fill="#2d6cdf" font-weight="600">оба конца срезаны;</text>
-<text x="1080" y="650" font-size="20" fill="#2d6cdf" font-weight="600">на CA602 перемычка A→B</text>
+<text x="1080" y="650" font-size="20" fill="#2d6cdf" font-weight="600">перемычка на вход №2</text>
 <path d="M1690 300 L1800 300 L1800 260 L1990 260" fill="none" stroke="#c06a1d" stroke-width="6" stroke-linejoin="round" />
 <path d="M1690 400 L1830 400 L1830 370 L1990 370" fill="none" stroke="#c06a1d" stroke-width="6" stroke-linejoin="round" />
 <path d="M1690 500 L1990 525" fill="none" stroke="#c06a1d" stroke-width="6" stroke-linejoin="round" stroke-dasharray="12 9"/>
@@ -112,13 +112,13 @@
 <text x="1700" y="664" font-size="19" fill="#c06a1d" font-weight="600">пара KEF параллельно = 4 Ом</text>
 <path d="M1690 840 L1880 840" fill="none" stroke="#c0392b" stroke-width="6" stroke-linejoin="round" />
 <path d="M1690 940 L1780 940 L1780 1000 L1880 1000" fill="none" stroke="#c0392b" stroke-width="6" stroke-linejoin="round" />
-<text x="1700" y="1130" font-size="19" fill="#c0392b" font-weight="600">улица — кабель в гофре 20 мм</text>
+<text x="1700" y="1130" font-size="19" fill="#c0392b" font-weight="600">улица — кабель в защите по месту</text>
 <path d="M150 830 L150 500 L690 500" fill="none" stroke="#7a4fd6" stroke-width="6" stroke-linejoin="round" />
 <text x="170" y="485" font-size="20" fill="#7a4fd6" font-weight="600">Cat5e, RJ45</text>
 <path d="M410 950 L410 1300 L1400 1300 L1400 1000" fill="none" stroke="#7a4fd6" stroke-width="6" stroke-linejoin="round" />
 <path d="M280 950 L280 1340 L1560 1340 L1560 1000" fill="none" stroke="#7a4fd6" stroke-width="6" stroke-linejoin="round" />
-<text x="700" y="1325" font-size="20" fill="#7a4fd6" font-weight="600">ТУАЛЕТ → CA602 RJ45 «B» (канал B)</text>
-<text x="700" y="1368" font-size="20" fill="#7a4fd6" font-weight="600">УЛИЦА → CA602 RJ45 «A+B» (канал A)</text>
+<text x="700" y="1325" font-size="20" fill="#7a4fd6" font-weight="600">ТУАЛЕТ → CA1201 №2, RJ45</text>
+<text x="700" y="1368" font-size="20" fill="#7a4fd6" font-weight="600">УЛИЦА → CA1201 №1, RJ45</text>
 <text x="60" y="1420" font-size="21" fill="#5b6475">Кабели XLR из КП Пульта: в работе 2 × 2 м (выходы CM82). 6 × 1 м — запас; один уйдёт</text>
 <text x="60" y="1448" font-size="21" fill="#5b6475">с LINK канала 1 на IN 3 Volta, если PARALLEL у этой модели связывает каналы только парами.</text>
 <text x="60" y="1476" font-size="21" fill="#5b6475">CM82: выходы — Euroblock 3 pin (pin 2 «+», pin 3 «−», pin 1 экран). Стерео с iPad суммируется в моно.</text>
