@@ -37,7 +37,7 @@ iPad и резервный DJ-вход → микшер → выход зала 
 
 ## Источники
 
-- [Раздел «Теплицы», вариант A](https://github.com/olegoviccc/teplica/tree/main/sound/A-kef-volta-sub)
+- [Раздел «Теплицы», вариант A](https://github.com/olegoviccc/p2p-audio-system-design/tree/main/teplica/A-kef-volta-sub)
 - [Паспорт KEF Q Series](https://assets.kef.com/documents/qseries/q2017-product-manual.pdf)
 - [Горизонтальные и вертикальные измерения Q350](https://www.stereophile.com/content/kef-q350-loudspeaker-measurements)
 - [Цена KEF Q350](https://www.audiomania.ru/polochnaya_akustika/kef/kef_q350.html)

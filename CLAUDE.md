@@ -1,6 +1,8 @@
-# teplica
+# p2p-audio-system-design
 
-Sound system design projects for venues (P2P Tech client work). Each venue or object has its own folder (`sound/` = Теплица, `vo-9-liniya-60/` = 9-я линия В.О., 60). Everything is in Russian. Keep it that way.
+Sound system design projects for venues (P2P Tech client work). Each venue or
+object has its own folder (`teplica/` = Теплица, `produkty/` = бар «Продукты»,
+9-я линия В.О., 60). Everything is in Russian. Keep it that way.
 
 ## Per-project folder layout
 
