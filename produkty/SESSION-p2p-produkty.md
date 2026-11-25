@@ -41,3 +41,9 @@ iPad и резервный DJ-вход → микшер → выход зала 
 - [Паспорт KEF Q Series](https://assets.kef.com/documents/qseries/q2017-product-manual.pdf)
 - [Горизонтальные и вертикальные измерения Q350](https://www.stereophile.com/content/kef-q350-loudspeaker-measurements)
 - [Цена KEF Q350](https://www.audiomania.ru/polochnaya_akustika/kef/kef_q350.html)
+
+## 25 ноября 2026 года
+
+Для согласования подготовлены три вида деревянного подвеса Q350 с KEF B2. По уточнению заказчика колонка направлена вниз. На эскизе принят угол 15°, показаны нижняя опора и отдельная потолочная точка страховки. SMP25 остаётся запасным вариантом.
+
+[Эскиз трёх видов в PDF](visuals/mount-wood-b2-3views.pdf).
