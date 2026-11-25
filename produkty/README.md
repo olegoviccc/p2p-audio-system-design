@@ -8,6 +8,7 @@
 - [План размещения четырёх Q350](placement.png)
 - [Карта относительного уровня прямого звука](coverage.png)
 - [Деревянный подвес с B2, три вида](visuals/mount-wood-b2-3views.pdf) · [PNG](visuals/mount-wood-b2-3views.png)
+- [Записка по подвесу: размеры, цены, вопросы](mount-q350.md)
 - [Исходный эскиз металлической люльки](bracket.png)
 - [Карта и эскиз в PDF](produkty-preliminary.pdf)
 - [Выгрузка решений сессии](SESSION-p2p-produkty.md)
