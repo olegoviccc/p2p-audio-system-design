@@ -7,6 +7,7 @@
 - [Смета CSV](preliminary-budget.csv)
 - [План размещения четырёх Q350](placement.png)
 - [Карта относительного уровня прямого звука](coverage.png)
+- [Альтернативное ТЗ на металлический подвес Q350](mount-q350-metal.md) · [Три вида, PDF](visuals/mount-metal-tray-3views.pdf)
 - [Деревянный подвес с B2, три вида](visuals/mount-wood-b2-3views.pdf) · [PNG](visuals/mount-wood-b2-3views.png)
 - [Записка по подвесу: размеры, цены, вопросы](mount-q350.md)
 - [Исходный эскиз металлической люльки](bracket.png)
