@@ -1,0 +1,22 @@
+digraph Hall {
+graph [rankdir=LR,bgcolor="white",pad=.28,nodesep=.23,ranksep=.50,splines=polyline,labelloc=t,labeljust=l,fontname="DejaVu Sans Bold",fontsize=20,label="02  /  ЗАЛ И САБВУФЕР\nПонятия OUT A, IN A и номера выходов относятся к конкретным аппаратам"];
+node [shape=box,style="rounded,filled",fontname="DejaVu Sans",fontsize=10,margin=".17,.11",color="#96aabb",fillcolor="#eff5fa"];
+edge [fontname="DejaVu Sans",fontsize=9,color="#45677d",fontcolor="#192c3b",arrowsize=.65];
+crc [label="СТОЙКА\nCRC-VEU «Зал»"];
+cm [label="CM82\nRemote A · RJ45\nOUT A · Euroblock"];
+dsp [label="DCX2496LE\nIN A → OUT 1–5\n1–4: HPF + лимитеры\n5: LPF, уровень\n6: свободен"];
+volta [label="VOLTA LIVE 4.400\nIN 1–4 · XLR\nOUT 1–4 · speakON\nНезависимые каналы"];
+z1 [label="З1 · KEF Q350\nСо стороны кассы"];
+z2 [label="З2 · KEF Q350\nСо стороны гардероба"];
+z3 [label="З3 · KEF Q350\nОкна со стороны входа"];
+z4 [label="З4 · KEF Q350\nОкна со стороны санузла"];
+sub [label="KEF Kube 8 MIE\nЛинейный вход RCA/LFE\nСетевой вход 230 В",fillcolor="#e9f1ee"];
+power [label="Отдельная розетка\n230 В у сабвуфера",fillcolor="#f6f2ec"];
+crc -> cm [label="Cat5e, прямой\nRJ45 ↔ RJ45",style=dashed];
+cm -> dsp [label="OUT A → IN A\nбалансный патч"];
+dsp -> volta [label="OUT 1–4 → IN 1–4\n4 × XLR–XLR"];
+volta -> z1 [label="OUT 1 · З1"]; volta -> z2 [label="OUT 2 · З2"]; volta -> z3 [label="OUT 3 · З3"]; volta -> z4 [label="OUT 4 · З4"];
+dsp -> sub [label="OUT 5 · LINE\nбалансная линия + переход на RCA"];
+power -> sub [label="230 В",color="#8f6842"];
+{rank=same;z1;z2;z3;z4;sub}
+}

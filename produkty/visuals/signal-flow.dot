@@ -1,15 +1,15 @@
 digraph Signal {
-  graph [rankdir=LR,bgcolor="#ffffff",pad=.28,nodesep=.32,ranksep=.54,splines=polyline,labelloc=t,labeljust=l,fontname="DejaVu Sans Bold",fontsize=24,label="ПРОДУКТЫ  /  Первичная схема подключения\n26.11.2026 · Пунктиром показаны управление и резерв"];
+  graph [rankdir=LR,bgcolor="#ffffff",pad=.28,nodesep=.32,ranksep=.54,splines=polyline,labelloc=t,labeljust=l,fontname="DejaVu Sans Bold",fontsize=24,label="01  /  ОБЩАЯ СХЕМА ПОДКЛЮЧЕНИЯ\n26.11.2026 · Пунктиром показаны управление и резерв"];
   node [shape=box,style="rounded,filled",fontname="DejaVu Sans",fontsize=11,color="#9cacb6",fillcolor="#f5f8fa",margin=".17,.12"];
   edge [fontname="DejaVu Sans",fontsize=9,color="#36546b",fontcolor="#253444",arrowsize=.65];
-  ipad [label="iPad у стойки\nаудиоадаптер + зарядка"]; dj [label="DJ-контроллер\nрезервный стереовход"];
+  ipad [label="iPad у стойки\n3,5 мм аудио + Lightning"]; dj [label="DJ-контроллер\nрезервный стереовход"];
   mixer [label="CM82 · шкаф\nC: iPad → A+B\nD: DJ → A\nоба RCA-входа суммируют L/R",fillcolor="#e9f2fa"];
   wall [label="Ручка «Зал»\nCRC-VEU · у стойки"];
   dsp [label="DCX2496LE\nInput A → Out 1–5\nфильтры / лимитеры",fillcolor="#e9f2fa"];
   pa [label="Volta LIVE 4.400\nXLR IN 1–4 → OUT 1–4"];
   hall [label="4 × KEF Q350 · зал\nЗ1 · касса / гостевая сторона\nЗ2 · гардероб / диагональная стойка\nЗ3 · окна со стороны входа\nЗ4 · окна со стороны санузла",fillcolor="#e9f2fa"];
   sub [label="KEF Kube 8 MIE · активный саб\nRCA/LFE и розетка 230 В\nместо уточняется"];
-  match [label="Согласование уровня\nбалансный моно → RCA"];
+  match [label="Переход на RCA\nбалансный моно, согласование"];
   tr [label="TR-40LS · шкаф\nAUX 1 → 100 В / COM\nстартовая сумма 16 Вт",fillcolor="#edf5ed"];
   coat [label="Ручка «Гардероб»\nVA-130 · 100 В / 30 Вт"];
   wc [label="Ручка «Санузел»\nVA-130 · 100 В / 30 Вт"];

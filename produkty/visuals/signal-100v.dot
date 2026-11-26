@@ -1,0 +1,23 @@
+digraph Zones {
+graph [rankdir=LR,bgcolor="white",pad=.28,nodesep=.35,ranksep=.67,splines=polyline,labelloc=t,labeljust=l,fontname="DejaVu Sans Bold",fontsize=20,label="03  /  ГАРДЕРОБ И САНУЗЕЛ\nДве независимые ветки 100 В · кабинки включены параллельно"];
+node [shape=box,style="rounded,filled",fontname="DejaVu Sans",fontsize=11,margin=".17,.13",color="#91a597",fillcolor="#eff5ee"];
+edge [fontname="DejaVu Sans",fontsize=9,color="#53775c",fontcolor="#283b31",arrowsize=.65];
+cm [label="CM82 • OUT B\nбалансный моно",fillcolor="#eef3f7"];
+interface [label="Переход на RCA\nсогласовать уровень\nи способ развязки",fillcolor="#eef3f7"];
+tr [label="TR-40LS • AUX 1\nвыход 100 В (+) / COM (−)\nноминал 40 Вт"];
+split [label="Клеммник в шкафу\n100 В (+) / COM (−)\nпараллельное деление"];
+v1 [label="VA-130 «Гардероб»\nIN + / −   →   OUT + / −\n30 Вт"];
+v2 [label="VA-130 «Санузел»\nIN + / −   →   OUT + / −\n30 Вт"];
+s1 [label="01 · OSR608TBL\nотвод 10 Вт"];
+wc [label="Разветвление OUT\nдве WPL6TW параллельно"];
+w1 [label="04 · WPL6TW\nотвод 3 Вт"]; w2 [label="05 · WPL6TW\nотвод 3 Вт"];
+cm -> interface [label="Euroblock"];
+interface -> tr [label="короткий RCA"];
+tr -> split [label="100 В / COM"];
+split -> v1 [label="пара на IN"];
+split -> v2 [label="пара на IN"];
+v1 -> s1 [label="OUT, 10 Вт"];
+v2 -> wc [label="OUT, 6 Вт"];
+wc -> w1 [label="+ / −"];
+wc -> w2 [label="+ / −"];
+}
