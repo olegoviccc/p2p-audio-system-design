@@ -8,7 +8,7 @@ digraph Signal {
   dsp [label="DCX2496LE\nInput A → Out 1–5\nфильтры / лимитеры",fillcolor="#e9f2fa"];
   pa [label="Volta LIVE 4.400\nXLR IN 1–4 → OUT 1–4"];
   hall [label="4 × KEF Q350 · зал\nЗ1 · касса / гостевая сторона\nЗ2 · гардероб / диагональная стойка\nЗ3 · окна со стороны входа\nЗ4 · окна со стороны санузла",fillcolor="#e9f2fa"];
-  sub [label="Подготовка под активный саб\nэкранная линия + розетка 230 В\nместо и модель уточняются"];
+  sub [label="KEF Kube 8 MIE · активный саб\nRCA/LFE и розетка 230 В\nместо уточняется"];
   match [label="Согласование уровня\nбалансный моно → RCA"];
   tr [label="TR-40LS · шкаф\nAUX 1 → 100 В / COM\nстартовая сумма 16 Вт",fillcolor="#edf5ed"];
   coat [label="Ручка «Гардероб»\nVA-130 · 100 В / 30 Вт"];
@@ -19,7 +19,7 @@ digraph Signal {
   wall -> mixer [label="Cat5e · Remote A",style=dashed,constraint=false];
   mixer -> dsp [label="OUT A\nEuroblock → XLR"];
   dsp -> pa [label="4× XLR\nвыходы 1–4"]; pa -> hall [label="4 отдельные пары\nпо одному каналу"];
-  dsp -> sub [label="OUT 5 · LINE\nрезерв",style=dashed];
+  dsp -> sub [label="OUT 5 · LINE\nXLR → RCA/LFE"];
   mixer -> match [label="OUT B\nEuroblock"]; match -> tr [label="RCA"]; tr -> coat [label="100 В",color="#4e755b"];
   tr -> wc [label="100 В",color="#4e755b"];
   coat -> osr [label="отдельная трасса",color="#4e755b"];
