@@ -8,6 +8,7 @@
 - [Предыдущий расчёт от 26.11.2026](budget-2026-11-26.md) · [Ведомость CSV](budget-2026-11-26.csv)
 - [Схема подключения по узлам](signal-flow.md) · [Единая схема PDF](visuals/signal-flow.pdf) · [Ведомость соединений PDF](visuals/connection-schedule.pdf)
 - [Предыдущая смета CSV](preliminary-budget.csv)
+- [Фото и габариты KEF Q350 Satin Black и Kube 8 MIE](visuals/equipment-dimensions.pdf)
 - [План размещения четырёх Q350](placement.png) · [План оборудования и кабельных трасс PDF](visuals/placement-rack-sub.pdf)
 - [Карта относительного уровня прямого звука](coverage.png)
 - [Альтернативное ТЗ на металлический подвес Q350](mount-q350-metal.md) · [Три вида, PDF](visuals/mount-metal-tray-3views.pdf)
