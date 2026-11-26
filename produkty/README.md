@@ -7,7 +7,7 @@
 - [Смета от 26.11.2026](budget-2026-11-26.md) · [Ведомость CSV](budget-2026-11-26.csv)
 - [Схема подключения по узлам](signal-flow.md) · [PDF](visuals/signal-flow.pdf)
 - [Предыдущая смета CSV](preliminary-budget.csv)
-- [План размещения четырёх Q350](placement.png)
+- [План размещения четырёх Q350](placement.png) · [План с рэком и сабом](visuals/placement-rack-sub.png)
 - [Карта относительного уровня прямого звука](coverage.png)
 - [Альтернативное ТЗ на металлический подвес Q350](mount-q350-metal.md) · [Три вида, PDF](visuals/mount-metal-tray-3views.pdf)
 - [Деревянный подвес с B2, три вида](visuals/mount-wood-b2-3views.pdf) · [PNG](visuals/mount-wood-b2-3views.png)
